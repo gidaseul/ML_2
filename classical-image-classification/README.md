@@ -42,6 +42,14 @@
 | SportsBall | `XGBoost` 교차검증 정확도 `64.78%` |
 | SportsBall | 최종 테스트 정확도 `37.37%` |
 
+## Evidence
+
+![Classical image classification ROI evidence](../assets/images/classical-roi-evidence.png)
+
+- 출처: `ML_소스코드_02팀.ipynb`의 실제 셀 출력
+- 구성: `Original with ROI -> Processed Image -> Extracted ROI`
+- 의미: 객체가 뚜렷한 경우와 배경이 복잡한 경우를 함께 보여 주어, SportsBall 분류에서 ROI 품질이 성능을 크게 좌우했다는 점을 시각적으로 확인할 수 있습니다.
+
 ## Why This Method Matters
 
 - MNIST에서는 `HOG + SVM`이 가장 강하게 작동하며, 형태 중심 특징이 숫자 분류에 효과적이라는 점을 확인했습니다.

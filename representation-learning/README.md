@@ -36,6 +36,14 @@
 | SportsBall | Autoencoder 기반 표현학습 실험에서는 테스트 정확도 `10%` 수준 구간 확인 |
 | SportsBall | 최종 분석에서 성능이 좋지 않았던 contrastive learning 실험 결과 `9.00%` 비교 |
 
+## Evidence
+
+![Representation learning clustering and latent-space evidence](../assets/images/representation-latent-evidence.png)
+
+- 출처: `[2024-2_ML] Project1 specifications/Project.ipynb`, `../mnist/mnist_latent_feature.ipynb`, `../sportsball/sportsball_latent_feature.ipynb`
+- 구성: K-Means, GMM, 그리고 t-SNE 기반 feature-space 시각화
+- 의미: MNIST는 클래스 간 분리가 비교적 선명하고, SportsBall은 배경과 객체 변화 때문에 latent space가 더 넓고 복잡하게 퍼지는 경향을 보여 줍니다.
+
 ## Why This Method Matters
 
 - MNIST처럼 구조가 단순한 데이터는 표현학습이 안정적으로 작동했습니다.
