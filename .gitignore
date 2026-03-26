@@ -1,1 +1,20 @@
-datas/
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+.playwright-cli/
+
+# Keep this repo focused on documentation for now.
+ML_1/
+ML_1/**
+classical-image-classification/**
+representation-learning/**
+\[2024-2_ML\] Project1 specifications/
+\[2024-2_ML\] Project1 specifications/**
+
+!classical-image-classification/
+!classical-image-classification/README.md
+!representation-learning/
+!representation-learning/README.md
+!assets/
+!assets/images/
+!assets/images/*.png
