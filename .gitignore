@@ -3,18 +3,24 @@ __pycache__/
 .ipynb_checkpoints/
 .playwright-cli/
 
-# Keep this repo focused on documentation for now.
-ML_1/
-ML_1/**
-classical-image-classification/**
-representation-learning/**
+# Keep this repo focused on documentation and PDF artifacts.
 \[2024-2_ML\] Project1 specifications/
 \[2024-2_ML\] Project1 specifications/**
+ML_1/**
+ML_2/**
+ML_1(개인적으로 진행한 실험과정)/**
 
-!classical-image-classification/
-!classical-image-classification/README.md
-!representation-learning/
-!representation-learning/README.md
+!ML_1/
+!ML_1/README.md
+!ML_1/*.pdf
+
+!ML_2/
+!ML_2/README.md
+!ML_2/**/*.pdf
+
+!ML_1(개인적으로 진행한 실험과정)/
+!ML_1(개인적으로 진행한 실험과정)/README.md
+
 !assets/
 !assets/images/
 !assets/images/*.png
